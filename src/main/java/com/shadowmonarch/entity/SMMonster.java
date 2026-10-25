@@ -15,7 +15,7 @@ import net.minecraft.network.IPacket;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.world.BossInfo;
 import net.minecraft.world.World;
-import net.minecraft.server.ServerBossInfo;
+import net.minecraft.world.ServerBossInfo;
 import net.minecraftforge.fml.network.NetworkHooks;
 
 /** Base class of every hostile anime monster. Stats come from {@link MobDefs}. */
