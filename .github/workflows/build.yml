@@ -23,12 +23,24 @@ jobs:
         run: |
           set -o pipefail
           gradle build --no-daemon --stacktrace 2>&1 | tee build.log
+      - name: Server smoke test (loads the mod in a real Forge server)
+        if: always()
+        continue-on-error: true
+        shell: bash
+        run: |
+          mkdir -p run && echo "eula=true" > run/eula.txt
+          (sleep 150; echo stop) | timeout 330 gradle runServer --no-daemon 2>&1 | tee server.log || true
       - name: Publish build log to branch buildlog
         if: always()
         shell: bash
         run: |
           mkdir -p /tmp/lg
           cp build.log /tmp/lg/build.log || echo "no log" > /tmp/lg/build.log
+          cp server.log /tmp/lg/server.log 2>/dev/null || true
+          cp run/logs/latest.log /tmp/lg/latest.log 2>/dev/null || true
+          cp run/logs/debug.log /tmp/lg/debug.log 2>/dev/null || true
+          mkdir -p /tmp/lg/crash && cp run/crash-reports/* /tmp/lg/crash/ 2>/dev/null || true
+          cp build/libs/*.jar /tmp/lg/ 2>/dev/null || true
           JAR=$(find ~/.gradle/caches/forge_gradle/minecraft_user_repo -name '*mapped_snapshot*.jar' | head -1)
           echo "jar: $JAR" > /tmp/lg/api.txt
           if [ -n "$JAR" ]; then
