@@ -1,0 +1,100 @@
+[25Oct2026 13:09:51.825] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevserver, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.26]
+[25Oct2026 13:09:51.829] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_504 by Temurin
+[25Oct2026 13:09:52.009] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[25Oct2026 13:09:52.063] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /home/runner/work/shadow-monarch/shadow-monarch/run/config/fml.toml is not correct. Correcting
+[25Oct2026 13:09:52.070] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[25Oct2026 13:09:52.071] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: com.electronwill.nightconfig.core.io.ParsingException: Invalid TOML data: entry "[maxThreads]" defined twice in its table.
+[25Oct2026 13:09:52.072] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.checkDuplicateKey(TableParser.java:88)
+[25Oct2026 13:09:52.072] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:59)
+[25Oct2026 13:09:52.072] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:44)
+[25Oct2026 13:09:52.073] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37)
+[25Oct2026 13:09:52.073] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113)
+[25Oct2026 13:09:52.073] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219)
+[25Oct2026 13:09:52.074] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202)
+[25Oct2026 13:09:52.074] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73)
+[25Oct2026 13:09:52.074] [Thread-1/INFO] [STDERR/]: [com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread:run:183]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[25Oct2026 13:09:52.076] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [maxThreads] was corrected from null to -1
+[25Oct2026 13:09:53.547] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevserver' with arguments [--gameDir, .]
+[25Oct2026 13:09:54.963] [main/ERROR] [net.minecraft.server.dedicated.PropertyManager/]: Failed to load properties from file: server.properties
+[25Oct2026 13:10:09.193] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Oct2026 13:10:09.197] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Oct2026 13:10:09.198] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Oct2026 13:10:09.199] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Oct2026 13:10:09.200] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Oct2026 13:10:09.529] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.14.4
+[25Oct2026 13:10:09.955] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.26, for MC 1.14.4 with MCP 20190829.143755
+[25Oct2026 13:10:09.955] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.26 Initialized
+[25Oct2026 13:10:10.259] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:goblin
+[25Oct2026 13:10:10.259] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:goblin_chief
+[25Oct2026 13:10:10.260] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:dire_wolf
+[25Oct2026 13:10:10.260] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:fang
+[25Oct2026 13:10:10.261] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:cerberus
+[25Oct2026 13:10:10.261] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:tank
+[25Oct2026 13:10:10.261] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:iron
+[25Oct2026 13:10:10.261] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:igris
+[25Oct2026 13:10:10.262] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:beru
+[25Oct2026 13:10:10.267] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_fang
+[25Oct2026 13:10:10.267] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_tank
+[25Oct2026 13:10:10.268] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_iron
+[25Oct2026 13:10:10.268] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_igris
+[25Oct2026 13:10:10.268] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_beru
+[25Oct2026 13:10:10.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Oct2026 13:10:10.789] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Oct2026 13:10:10.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Oct2026 13:10:10.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Generating keypair
+[25Oct2026 13:10:11.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Oct2026 13:10:11.222] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[25Oct2026 13:10:11.656] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.26 Target: null
+[25Oct2026 13:10:12.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[25Oct2026 13:10:12.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to SimpleCommentedConfig:{}
+[25Oct2026 13:10:12.999] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to false
+[25Oct2026 13:10:13.000] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to false
+[25Oct2026 13:10:13.000] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to false
+[25Oct2026 13:10:13.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to 0.1
+[25Oct2026 13:10:13.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to 0.05
+[25Oct2026 13:10:13.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to true
+[25Oct2026 13:10:13.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to false
+[25Oct2026 13:10:13.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to 0
+[25Oct2026 13:10:13.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clumpingThreshold was corrected from null to 64
+[25Oct2026 13:10:13.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to false
+[25Oct2026 13:10:13.007] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to true
+[25Oct2026 13:10:13.009] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[25Oct2026 13:10:13.020] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[25Oct2026 13:10:13.177] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Oct2026 13:10:13.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack vanilla, loading it automatically
+[25Oct2026 13:10:13.313] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar, main
+[25Oct2026 13:10:14.354] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[25Oct2026 13:10:16.192] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 811 advancements
+[25Oct2026 13:10:19.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Oct2026 13:10:20.004] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Oct2026 13:10:20.283] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Oct2026 13:10:20.778] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Oct2026 13:10:21.285] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Oct2026 13:10:21.783] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
+[25Oct2026 13:10:22.281] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
+[25Oct2026 13:10:22.783] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 6%
+[25Oct2026 13:10:23.469] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 7%
+[25Oct2026 13:10:23.777] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 12%
+[25Oct2026 13:10:24.277] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
+[25Oct2026 13:10:24.779] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 19%
+[25Oct2026 13:10:25.282] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 20%
+[25Oct2026 13:10:25.777] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
+[25Oct2026 13:10:26.279] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 27%
+[25Oct2026 13:10:26.779] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
+[25Oct2026 13:10:27.278] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
+[25Oct2026 13:10:27.777] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 39%
+[25Oct2026 13:10:28.317] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[25Oct2026 13:10:28.780] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
+[25Oct2026 13:10:29.446] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 52%
+[25Oct2026 13:10:29.777] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
+[25Oct2026 13:10:30.303] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 62%
+[25Oct2026 13:10:30.790] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 69%
+[25Oct2026 13:10:31.317] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
+[25Oct2026 13:10:31.791] [Server-Worker-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 80%
+[25Oct2026 13:10:32.291] [Server-Worker-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[25Oct2026 13:10:32.778] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[25Oct2026 13:10:33.278] [Server-Worker-1/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[25Oct2026 13:10:33.401] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 13624 ms
+[25Oct2026 13:10:33.402] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (20.424s)! For help, type "help"
+[25Oct2026 13:10:33.764] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Oct2026 13:10:33.764] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

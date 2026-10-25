@@ -1,0 +1,63 @@
+
+Welcome to Gradle 4.10.3!
+
+Here are the highlights of this release:
+ - Incremental Java compilation by default
+ - Periodic Gradle caches cleanup
+ - Gradle Kotlin DSL 1.0-RC6
+ - Nested included builds
+ - SNAPSHOT plugin versions in the `plugins {}` block
+
+For more details see https://docs.gradle.org/4.10.3/release-notes.html
+
+To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/4.10.3/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+
+> Configure project :
+New Dep: net.minecraftforge:forge:1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3
+
+> Task :compileJava
+Setting up MCP environment
+Initializing steps
+Executing steps
+ > Running 'downloadManifest'
+ > Running 'downloadJson'
+ > Running 'downloadClient'
+ > Running 'downloadServer'
+ > Running 'stripClient'
+ > Running 'stripServer'
+ > Running 'merge'
+ > Running 'rename'
+Stopping at requested step: /home/runner/.gradle/caches/forge_gradle/mcp_repo/de/oceanlabs/mcp/mcp_config/1.14.4-20190829.143755/joined/rename/output.jar
+[13:09:17] [main/INFO]: Writing debug log file accesstransform.log
+[13:09:17] [main/INFO]: Access Transformer processor running version 1.0.5+4+02b7b69
+[13:09:17] [main/INFO]: Command line arguments [--inJar, /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-injected.jar, --outJar, /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3/forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar, --logFile, accesstransform.log, --atFile, /home/runner/work/shadow-monarch/shadow-monarch/build/_atJar_5/parent_at.cfg]
+[13:09:17] [main/INFO]: Reading from /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.2.26/forge-1.14.4-28.2.26-injected.jar
+[13:09:17] [main/INFO]: Writing to /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3/forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar
+[13:09:17] [main/INFO]: Transformer file /home/runner/work/shadow-monarch/shadow-monarch/build/_atJar_5/parent_at.cfg
+[13:09:17] [main/WARN]: Found existing output jar /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3/forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar, overwriting
+[13:09:20] [main/INFO]: JAR transformation complete /home/runner/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3/forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar
+Creating SRG -> MCP TSRG
+
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :downloadMcpConfig
+> Task :extractSrg
+> Task :createMcpToSrg
+> Task :reobfJar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 13s
+7 actionable tasks: 7 executed
+Got buildFinished: org.gradle.BuildResult@331e0a31

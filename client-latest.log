@@ -1,0 +1,74 @@
+[25Oct2026 13:15:42.430] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20190829.143755, --fml.mcVersion, 1.14.4, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 28.2.26, --version, MOD_DEV, --assetIndex, 1.14, --assetsDir, /home/runner/.gradle/caches/forge_gradle/assets, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[25Oct2026 13:15:42.434] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 4.1.0+62+5bfa59b starting: java version 1.8.0_504 by Temurin
+[25Oct2026 13:15:42.615] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[25Oct2026 13:15:43.717] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /home/runner/.gradle/caches/forge_gradle/assets, --assetIndex, 1.14, --username, Dev, --accessToken, ❄❄❄❄❄❄❄❄, --userProperties, {}]
+[25Oct2026 13:15:47.110] [Client thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[25Oct2026 13:15:58.882] [Client thread/INFO] [net.minecraft.client.Minecraft/]: LWJGL Version: 3.2.2 build 10
+[25Oct2026 13:16:00.448] [modloading-worker-3/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 28.2.26, for MC 1.14.4 with MCP 20190829.143755
+[25Oct2026 13:16:00.448] [modloading-worker-3/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v28.2.26 Initialized
+[25Oct2026 13:16:00.658] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:goblin
+[25Oct2026 13:16:00.658] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:goblin_chief
+[25Oct2026 13:16:00.661] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:dire_wolf
+[25Oct2026 13:16:00.661] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:fang
+[25Oct2026 13:16:00.664] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:cerberus
+[25Oct2026 13:16:00.664] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:tank
+[25Oct2026 13:16:00.664] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:iron
+[25Oct2026 13:16:00.664] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:igris
+[25Oct2026 13:16:00.665] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:beru
+[25Oct2026 13:16:00.683] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_fang
+[25Oct2026 13:16:00.684] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_tank
+[25Oct2026 13:16:00.684] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_iron
+[25Oct2026 13:16:00.684] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_igris
+[25Oct2026 13:16:00.693] [modloading-worker-1/WARN] [net.minecraft.entity.EntityType/]: No data fixer registered for entity shadowmonarch:shadow_beru
+[25Oct2026 13:16:04.077] [Client thread/WARN] [com.mojang.text2speech.NarratorLinux/]: ERROR : Couldn't load Narrator library : Unable to load library 'fliteWrapper': Can't obtain InputStream for linux-x86-64/libfliteWrapper.so
+[25Oct2026 13:16:06.933] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/runner/work/shadow-monarch/shadow-monarch/run/config/forge-client.toml is not correct. Correcting
+[25Oct2026 13:16:06.934] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to SimpleCommentedConfig:{}
+[25Oct2026 13:16:06.936] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.zoomInMissingModelTextInGui was corrected from null to false
+[25Oct2026 13:16:06.936] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeCloudsEnabled was corrected from null to true
+[25Oct2026 13:16:06.936] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableStairSlabCulling was corrected from null to false
+[25Oct2026 13:16:06.936] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to false
+[25Oct2026 13:16:06.936] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.forgeLightPipelineEnabled was corrected from null to true
+[25Oct2026 13:16:06.936] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.selectiveResourceReloadEnabled was corrected from null to true
+[25Oct2026 13:16:06.936] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to true
+[25Oct2026 13:16:06.936] [Server-Worker-1/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.allowEmissiveItems was corrected from null to true
+[25Oct2026 13:16:06.940] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[25Oct2026 13:16:06.941] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[25Oct2026 13:16:06.941] [Thread-1/FATAL] [net.minecraftforge.common.ForgeConfig/CORE]: Forge config just got changed on the file system!
+[25Oct2026 13:16:07.063] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Oct2026 13:16:07.685] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 28.2.26 Target: null
+[25Oct2026 13:16:11.224] [Client thread/ERROR] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Error starting SoundSystem. Turning off sounds & music
+java.lang.IllegalStateException: Failed to open OpenAL device
+	at net.minecraft.client.audio.SoundSystem.func_216406_f(SourceFile:210) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.audio.SoundSystem.func_216404_a(SourceFile:135) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.audio.SoundEngine.load(SoundEngine.java:78) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.audio.SoundEngine.reload(SoundEngine.java:71) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.audio.SoundHandler.apply(SoundHandler.java:119) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.audio.SoundHandler.apply(SoundHandler.java:35) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_504]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_504]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_504]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(SourceFile:144) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.run(SourceFile:23) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(SourceFile:118) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(SourceFile:103) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:861) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:384) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:155) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_504]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_504]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_504]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_504]
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-4.1.0.jar:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-4.1.0.jar:?]
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.14.4-28.2.26_mapped_snapshot_20190719-1.14.3.jar:?]
+[25Oct2026 13:16:11.420] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512 textures-atlas
+[25Oct2026 13:16:12.179] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/particle-atlas
+[25Oct2026 13:16:12.180] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256 textures/painting-atlas
+[25Oct2026 13:16:12.180] [Client thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128 textures/mob_effect-atlas
+[25Oct2026 13:16:12.419] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: DONT_CRASH
