@@ -1,7 +1,10 @@
 name: Build mod
 on:
   push:
+    branches: [main]
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-22.04
@@ -14,8 +17,24 @@ jobs:
       - uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: 4.10.3
+          cache-disabled: true
       - name: Build
-        run: gradle build --no-daemon --stacktrace
+        shell: bash
+        run: |
+          set -o pipefail
+          gradle build --no-daemon --stacktrace 2>&1 | tee build.log
+      - name: Publish build log to branch buildlog
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p /tmp/lg
+          cp build.log /tmp/lg/build.log || echo "no log" > /tmp/lg/build.log
+          cd /tmp/lg
+          git init -q
+          git checkout -q -b buildlog
+          git add build.log
+          git -c user.name=ci -c user.email=ci@example.com commit -q -m "build log"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" buildlog
       - uses: actions/upload-artifact@v4
         if: success()
         with:
