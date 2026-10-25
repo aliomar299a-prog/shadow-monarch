@@ -29,10 +29,18 @@ jobs:
         run: |
           mkdir -p /tmp/lg
           cp build.log /tmp/lg/build.log || echo "no log" > /tmp/lg/build.log
+          JAR=$(find ~/.gradle/caches/forge_gradle/minecraft_user_repo -name '*mapped_snapshot*.jar' | head -1)
+          echo "jar: $JAR" > /tmp/lg/api.txt
+          if [ -n "$JAR" ]; then
+            unzip -Z1 "$JAR" | grep '\.class$' | sed 's/\.class$//' | tr '/' '.' | sort > /tmp/lg/classes.txt
+            if [ -f tools/javap_query.txt ]; then
+              while read -r c; do [ -n "$c" ] && javap -public -cp "$JAR" "$c" 2>&1; done < tools/javap_query.txt > /tmp/lg/javap.txt
+            fi
+          fi
           cd /tmp/lg
           git init -q
           git checkout -q -b buildlog
-          git add build.log
+          git add .
           git -c user.name=ci -c user.email=ci@example.com commit -q -m "build log"
           git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}" buildlog
       - uses: actions/upload-artifact@v4
