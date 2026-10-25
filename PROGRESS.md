@@ -42,3 +42,10 @@ NEXT:
 Design notes: keys K = summon/dismiss equipped shadows (cost MP), L = Shadow Army menu. Max 2 equipped. Shadows hit IMob + owner's last target/revenge target only.
 Gate levels 5,10,15,20,25,30,40 -> bosses goblin_chief,fang,cerberus,tank,iron,igris,beru. Max level 50.
 Interpretation flagged to user: "عند صنع العالم خلي زي اضافة المود" = System auto-activates on first join of any new world.
+
+## STATUS 2026-10-25 (late): COMPILES + LOADS
+- GitHub linked; repo aliomar299a-prog/shadow-monarch (public). Local clone: /home/claude/sm-repo (the old /home/claude/shadow-monarch is the pre-git copy).
+- CI (.github/workflows/build.yml) builds with Forge 1.14.4-28.2.26, runs a dedicated-server smoke test + client title-screen smoke test, publishes logs/jar to branch `buildlog` and a GitHub Release.
+- Only error found so far: ServerBossInfo package (fixed -> net.minecraft.world.ServerBossInfo). Build SUCCESS, server "Done", client reaches title screen, no mod errors.
+- Helper: scratchpad/cycle.sh "msg" = commit+push+wait+print compile errors. classes.txt on buildlog = every MC class (use to verify imports). tools/javap_query.txt = classes to javap in CI.
+- NOT tested: real gameplay (quests, gates, shadows, GUI, HUD, mob rendering look). Wait for user feedback / bug reports.
