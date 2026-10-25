@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+license="MIT"
+
+[[mods]]
+modId="shadowmonarch"
+version="${file.jarVersion}"
+displayName="Shadow Monarch (Solo Leveling)"
+description='''
+A Solo Leveling inspired mod: the System, quests, gates (dungeons), level-gate bosses,
+anime weapons and armor, and a Shadow Army you can summon with the K key.
+'''
+
+[[dependencies.shadowmonarch]]
+    modId="forge"
+    mandatory=true
+    versionRange="[28.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.shadowmonarch]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"

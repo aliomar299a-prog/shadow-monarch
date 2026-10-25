@@ -1,0 +1,33 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "shadowmonarch:gate_key_a",
+    "count": 1
+  }
+}

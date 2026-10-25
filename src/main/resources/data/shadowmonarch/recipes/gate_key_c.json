@@ -1,0 +1,27 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    }
+  ],
+  "result": {
+    "item": "shadowmonarch:gate_key_c",
+    "count": 1
+  }
+}

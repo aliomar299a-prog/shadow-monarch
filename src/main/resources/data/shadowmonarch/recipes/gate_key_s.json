@@ -1,0 +1,36 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "result": {
+    "item": "shadowmonarch:gate_key_s",
+    "count": 1
+  }
+}

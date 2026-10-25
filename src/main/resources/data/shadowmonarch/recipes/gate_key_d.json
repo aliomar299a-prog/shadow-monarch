@@ -1,0 +1,24 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "shadowmonarch:magic_stone"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "shadowmonarch:gate_key_d",
+    "count": 1
+  }
+}
